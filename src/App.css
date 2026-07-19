@@ -1,0 +1,28 @@
+:root {
+    --kawasaki-green: #14B800;
+    --black: #111;
+    --white: #fff;
+}
+
+body {
+    background: var(--black);
+    color: var(--white);
+    font-family: sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    color: var(--kawasaki-green);
+}
+
+button,
+input[type="submit"] {
+    background: var(--kawasaki-green);
+    color: var(--black);
+    border: none;
+    border-radius: 4px;
+    padding: 8px 24px;
+    font-weight: bold;
+    cursor: pointer;
+}

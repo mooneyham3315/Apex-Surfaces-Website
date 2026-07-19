@@ -1,0 +1,31 @@
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 24px;
+    margin: 20px 0;
+}
+
+.gallery-item {
+    text-align: center;
+    background: var(--black);
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(20, 184, 0, 0.2);
+    /* Green-ish shadow */
+    border: 2px solid var(--kawasaki-green);
+}
+
+.gallery-item img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    border: 2px solid var(--kawasaki-green);
+}
+
+.gallery-item p {
+    margin: 0;
+    font-size: 1rem;
+    color: var(--white);
+}
